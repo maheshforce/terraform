@@ -34,5 +34,12 @@ variable az {
   description = "description"
 }
 
+variable tag {
+  type        = list
+  default     = ["mahesh", "hari"]
+  description = "description"
+}
+
+
 
 
