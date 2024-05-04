@@ -3,6 +3,7 @@ resource "aws_instance" "ec2" {
   instance_type = var.instancetype
 
   tags = {
-    Name = "mahesh"
+    for_each = var.tag
+    Name = each.value
   }
 }
