@@ -35,7 +35,6 @@ variable az {
 }
 
 variable tag {
-  type        = list
   default     = ["mahesh", "hari"]
   description = "description"
 }
