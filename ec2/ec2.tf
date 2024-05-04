@@ -1,5 +1,5 @@
 resource "aws_instance" "ec2" {
-  ami           = var.id
+  ami           = var.name
   instance_type = var.instancetype
 
   tags = {
