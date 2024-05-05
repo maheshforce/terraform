@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Files=("main.tf","provider.tf","variable.tf","terraform.tfvars")
+Files=("main.tf","provider.tf","variable.tf","terraform.tfvars","output.tf")
 resource_file=$(pwd | awk -F'/' '{print $NF}')
 
 validate_file() {

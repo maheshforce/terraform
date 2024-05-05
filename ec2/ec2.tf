@@ -4,6 +4,6 @@ resource "aws_instance" "ec2" {
   instance_type = var.instancetype
 
   tags = {
-    Name = each.value
+    Name = "${each.value}"
   }
 }
