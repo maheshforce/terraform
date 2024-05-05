@@ -12,7 +12,7 @@ validate_file() {
     fi
 }
 
-# Set comma as the field separatorss
+# Set comma as the field separator
 IFS=',' read -ra file_array <<< "${Files[@]}"
 
 # Print each element of the array
