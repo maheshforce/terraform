@@ -11,7 +11,7 @@ validate_file() {
         echo -e "\e[32mFile created: $1\e[0m"
     fi
 }
-# Set comma as the field separato
+# Set comma as the field separators
 IFS=',' read -ra file_array <<< "${Files[@]}"
 
 # Print each element of the array
